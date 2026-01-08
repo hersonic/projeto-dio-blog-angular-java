@@ -39,7 +39,7 @@ export class FeedComponent implements OnInit {
 
     delete this.post.id;
 
-    this.postService.postMensagem(this.post).subscribe((data: Post) => {
+    this.postService.postMensagem(this.post).subscribe(() => {
       this.post = new Post();
       this.findPosts();
     });
