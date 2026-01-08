@@ -1,0 +1,25 @@
+.icoLinkedin, .icoGithub {
+    color: white;
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.social-network {
+   list-style: none;
+   padding: 0;
+}
+
+.social-network > li {
+   display: inline;
+   padding: 5px;
+   font-size: 35px;
+}
+
+.icoLinkedin:hover {
+    color: #0077b5; /* Cor do LinkedIn */
+}
+
+.icoGithub:hover {
+    color: #6cc644; /* Cor do GitHub */
+}
